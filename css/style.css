@@ -584,8 +584,8 @@ section.our-facts .video img {
 @media (max-width: 575px) {
     section.our-facts .video {
         /* flex-direction: column; */
-        height: 300px;
-        width: 60%;
+        height: 350px;
+        width: 70%;
         margin-top: 20px;
     }
 
