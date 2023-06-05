@@ -35,19 +35,13 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div> -->
-    <!-- Spinner End -->
+   
 
-
+    
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <!-- <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><img src="img/LOGO OMEFFA TIPO.png" alt="logo" width="120px"></img></h2>
+            <h2 class="m-0 text-primary"><img src="img/LOGO OMEFFA.png" alt="logo" width="120px"></img></h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -57,13 +51,44 @@
                 <a href="index.html" class="nav-item nav-link active">INICIO</a>
                 <a href="courses.html" class="nav-item nav-link">SERVICIOS</a>
                 <a href="contact.html" class="btn btn-primary py-4 px-lg-5 ">CONTÁCTANOS<i class="fa fa-arrow-right ms-3"></i></a>
-                <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
             </div>
-            <!-- <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">CONTÁCTANOS<i class="fa fa-arrow-right ms-3"></i></a> -->
+           
         </div>
-    </nav>
+        
+    </nav> -->
     <!-- Navbar End -->
 
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header">
+    <div class="logo">
+<!---->            <img src="img/LOGO OMEFFA.png" alt="Logo de la marca">
+    </div>
+    <nav>
+       <ul class="nav-links">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="courses.html">SERVICIOS</a></li>
+       </ul>            
+    </nav>
+    <a class="btn" href="contact.html"><button>CONTÁCTANOS</button></a>
+
+<!---->        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+<!---->        <div id="mobile-menu" class="overlay">
+<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
+<!---->            <div class="overlay-content">
+<!---->                <a href="index.html">INICIO</a>
+<!---->                <a href="courses.html">SERVICIOS</a>
+<!---->                <a href="contact.html">CONTÁCTANOS</a>
+<!---->           
+<!---->            </div>
+<!---->        </div>
+
+</header>
+<div class="scrol">
+    
+</div>
+<!-- ***** Header Area End ***** -->
 
     <!-- Carousel Start -->
     <!-- <section class="section main-banner" id="top" data-section="section1">
@@ -88,9 +113,7 @@
         </div>
     </section> -->
     <section class="section main-banner" id="top" data-section="section1">
-        <!-- <video autoplay muted loop id="bg-video">
-            <source src="assets/images/course-video.mp4" type="video/mp4" />
-        </video> -->
+        
         <img src="img/1.png" alt="logo" id="bg-video">
   
         <div class="video-overlay header-text">
@@ -428,12 +451,12 @@
 
     
     <div class="jumbotron jumbotron-fluid">
-        <div class="tit-logo">
+        <div class="tit-clientes">
             <h4>Nuestros Clientes</h4>
         </div>
         <div class="container">
             
-            <div class="logo">
+            <div class="clientes">
                 
                     <!-- <img src="img/G Y A LOGO BLANCO.png" > -->
                     <div class="col-sm-2 col-md-2 py-2 align-self-center">
@@ -564,6 +587,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
 </body>
 
 </html>
