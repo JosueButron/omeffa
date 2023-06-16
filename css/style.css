@@ -1260,5 +1260,17 @@ areaA */
 
 
 
+.barra{
+    /* background-image: url(../img/segunda\ imagen\ xikita.jpg);
+     */
+    background-color: #000000;
+    
+     width: 2000px;
+    height: 150px;
+}
 
-
+@media screen and (max-height:450px) {
+    .barra {
+        background-image: url(../img/segunda\ imagen\ xikita.jpg);
+    }
+}
